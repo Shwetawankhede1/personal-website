@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Shweta Wankhede - Dental Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 2em;
+        }
+        .portfolio {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .portfolio-item {
+            background-color: white;
+            margin: 1em;
+            padding: 1em;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: calc(33% - 2em);
+            box-sizing: border-box;
+        }
+        .portfolio-item img {
+            max-width: 100%;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dr. Shweta Wankhede</h1>
+        <p>Experienced Dentist Specializing in Comprehensive Dental Care</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I am Dr. Shweta Wankhede, a dedicated and experienced dentist committed to providing the best dental care for my patients. With a passion for dentistry and a keen eye for detail, I strive to bring smiles to my patients' faces through excellent dental treatments.</p>
+        </section>
+        <section id="portfolio">
+            <h2>Dental Portfolio</h2>
+            <div class="portfolio">
+                <div class="portfolio-item">
+                    <h3>Case Study 1</h3>
+                    <img src="case1.jpg" alt="Case Study 1">
+                    <p>Description of the first case study and the treatment provided.</p>
+                </div>
+                <div class="portfolio-item">
+                    <h3>Case Study 2</h3>
+                    <img src="case2.jpg" alt="Case Study 2">
+                    <p>Description of the second case study and the treatment provided.</p>
+                </div>
+                <div class="portfolio-item">
+                    <h3>Case Study 3</h3>
+                    <img src="case3.jpg" alt="Case Study 3">
+                    <p>Description of the third case study and the treatment provided.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:shweta.wankhede@example.com">shweta.wankhede@example.com</a></p>
+            <p>Phone: +123-456-7890</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Dr. Shweta Wankhede. All rights reserved.</p>
+    </footer>
+</body>
+</html>
